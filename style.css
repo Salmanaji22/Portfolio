@@ -1,0 +1,72 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+
+/* herosection */
+
+
+.hero{
+
+}
+
+/* presentation */
+
+.a-propos{
+
+}
+
+
+
+
+
+
+/* mes compétences */
+
+.competcards{
+
+}
+
+
+.competcard{
+
+}
+
+
+
+
+
+
+
+    /* mes projets */
+
+    .projets{
+
+    }
+    
+    
+.projets .card{
+    
+}
+
+.card{
+
+}
+
+
+
+
+/* les boutons */
+.btn{
+    background-color: plum;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    text-wrap: nowrap;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+   
+
+
