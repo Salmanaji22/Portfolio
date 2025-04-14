@@ -3,32 +3,99 @@
     margin: 0;
 }
 
+/* barre de navigation */
+nav{
+        text-align: end;
+        width:70%;
+        display: inline-block;
+      
+}
+
+a{
+    text-decoration: none;
+    color:purple;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 20px;
+    }
+
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 242, 242);
+    font-style: normal;
+    color(#303030);
+
+}
+
 /* herosection */
 
 
 .hero{
-
+    
+    text-align:start;
+    padding: 60px;
+    margin-bottom: 10px;
 }
 
 /* presentation */
 
 .a-propos{
-
+    background-color: #F2EFEE;
+    text-align: center;
+    padding: 60px;
+    margin-bottom: 10px;
 }
 
 
 
 
-
+ 
+}
 
 /* mes compétences */
 
+.competences{
+   
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    gap: 44px;
+}
+
 .competcards{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    WIDTH: 60%;
+    margin-left: 30%;
+    gap: 60px;
+    padding: 2%;
+    height: 300px;
+    
+
 
 }
 
 
 .competcard{
+
+    background-color: white;
+    width: 345px;
+    padding: 40px;
+    margin: 50px auto;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow:10px 10px 10px 10px rgb(215, 215, 215);
 
 }
 
@@ -41,15 +108,28 @@
     /* mes projets */
 
     .projets{
+        
 
     }
     
     
 .projets .card{
     
+        display: flex;
+        justify-content: center;
+        padding: 64px;
+        gap: 44px;
 }
 
 .card{
+
+    background-color: white;
+    width: 345px;
+    padding: 40px;
+    margin: 50px auto;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow:10px 10px 10px 10px rgb(215, 215, 215);
 
 }
 
@@ -66,7 +146,10 @@
     padding: 10px;
     border-radius: 10px;
     border: none;
-    cursor: pointer;
    
 
+/* formulaire */
 
+.formular{
+
+}
