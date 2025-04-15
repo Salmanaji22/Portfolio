@@ -239,6 +239,17 @@ gap:50px;
 }
 
 .formular{
+   width: fit-content;
+    margin: 32px auto;
+    padding: 40px;
+    box-shadow: 0 4px 15px #00000026;
+    border-radius: 18px;
+    gap: 12px;
+    display: flex; 
+    flex-direction: column;
+}
+
+    
 
     
 
@@ -246,7 +257,7 @@ gap:50px;
             width: 45%;
         }
     
-}
+
 
 .blur-bg{
 
