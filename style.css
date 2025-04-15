@@ -1,27 +1,69 @@
 *{
     padding: 0; 
     margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+     /* variables de couleurs réutilisables  */
+    --beige: #F2EFEE;
+    --purple: #4E0250;
+    --pink: #D198B3;
+    --violet:#AD87B5;
+    --blue:#8B7BB1;
+    --ombre: 0px 4px 15px rgb(0 0 0 / 10%);
+}
+
+
+
+/* Titres principaux avec une police spécifique */
+h1, h2, h3, h4 {
+    font-family: "Vollkorn SC", serif;
+    font-weight: 400;
+    margin: 2% 0;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 31px;
+    text-align: center;
+}
+h3{
+    font-size: 23px;
+}
+h4{
+    font-size: 18px;
+}
+/* Paragraphes avec une autre police */
+p {
+    font-family: "Inter", sans-serif;
 }
 
 /* barre de navigation */
 nav{
-        text-align: end;
-        width:70%;
-        display: inline-block;
-      
+        
+display: flex; 
+justify-content: space-around;
+align-items: center; 
+        
 }
 
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header{
+
+}
 a{
     text-decoration: none;
     color:#4E0250;
     
 }
-ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    gap: 20px;
-    }
 
 
     
@@ -45,33 +87,41 @@ body{
     
     display: flex;
     color:#4E0250 ;
-    text-align:start;
     padding: 60px;
     margin-bottom: 10px;
-    gap: 44px
+    
+    
 }
-
+.accueil{
+    gap: 10%;
+    width: 463px;
+    margin: 38px;
+    flex-direction: column;
+    text-align:justify;
+    display: flex;
+}
 
 
 #salmapic{
     width: 350px;
     
+    object-fit: cover;
+    border-radius: 1rem;
 }
 
 /* presentation */
 
 .a-propos{
     background-color: #F2EFEE;
-    text-align: center;
-    padding: 60px;
+    padding: 88px 64px;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 12px;
 }
 
-
-
-
- 
-}
 
 /* mes compétences */
 
@@ -87,7 +137,7 @@ body{
     display: flex;
     text-align: justify;
     align-items: center;
-    width: ;: 60%;
+    width: 60%;
     margin-left: 30%;
     gap: 60px;
     padding: 2%;
@@ -103,68 +153,101 @@ body{
 .competcard{
 
     background-color: white;
-    width: 300px;
-    padding: 40px;
     margin: 50px auto;
     border-radius: 25px;
     text-align: center;
-    box-shadow:10px 10px 10px 10px rgb(215, 215, 215);
+    box-shadow:var(--ombre);
     height: 300px;
+    width: 460px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    h3{
+        width: 100%;
+    }
+    div{ 
+        width: 50%;
+        min-width: 50%;
+        h4{
+            margin-bottom: 4px;
+        }
+        
+    }
 
 }
 
 
+/* mes projets */
 
-
-
-
-
-    /* mes projets */
-
-    .projets{
-        
-
-    }
+.projets{
+    
+display: flex;
+justify-content: space-between;
+gap:50px;
+}
     
     
-.projets .card{
+.projets.card{
     
         display: flex;
         justify-content: center;
-        padding: 64px;
+        padding: 44px;
         gap: 44px;
-        
+        flex-direction: column;
 }
 
 .card{
 
     background-color: white;
-    width: 345px;
+    width: fit-content;
     padding: 40px;
     margin: 50px auto;
-    border-radius: 1rem;
+    border-radius: 17PX;
     text-align: center;
-    box-shadow:10px 10px 10px 10px rgb(215, 215, 215);
+    box-shadow:var(--ombre);
 
 }
 
+.card{
+    img{
+        border-radius: 1rem;
+        width: 250px;
+        height: 250px;
+        border-radius: 1rem;
+        object-fit: cover;
 
-
+    }
+    }
 
 /* les boutons */
 .btn{
     background-color: plum;
     color: white;
+    display: flex;
     width: fit-content;
     height: fit-content;
     text-wrap: nowrap;
     padding: 10px;
     border-radius: 10px;
     border: none;
-   
+}
 
 /* formulaire */
 
+.firstrow{
+    display: flex;
+}
+
 .formular{
     
+}
+
+.blur-bg{
+
+}
+.b1{
+
+}
+.b2{
+
 }
