@@ -44,7 +44,7 @@ p {
 nav{
         
 display: flex; 
-justify-content: space-around;
+justify-content:space-between;
 align-items: center; 
         
 }
@@ -119,7 +119,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    gap: 12px;
+    gap: 15px;
 }
 
 
@@ -239,6 +239,12 @@ gap:50px;
 }
 
 .formular{
+
+    
+
+        .formGroup {
+            width: 45%;
+        }
     
 }
 
