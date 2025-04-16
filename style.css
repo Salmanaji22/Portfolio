@@ -14,8 +14,6 @@
     --ombre: 0px 4px 15px rgb(0 0 0 / 10%);
 }
 
-#salma{
-    padding:100px;
 }
 
 
@@ -27,7 +25,6 @@ h1, h2, h3, h4 {
 }
 h1{
     font-size: 90px;
-    margin: auto;
     text-align: center;
     color: #5c5c5c;
 }
@@ -95,17 +92,35 @@ body{
 
 /* herosection */
 
-
+.hero-content{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 64px 24px;
+    img{
+        width: 44px;
+    }
+    img:first-of-type{
+        align-self: end;
+    }
+    img:last-of-type{
+        align-self: baseline;
+    }
+}
 .hero{
     
     display: flex;
     color:#4E0250 ;
     padding: 60px;
     margin-bottom: 10px;
+
+    display: inline-flex
+
     h2{
         text-align: left;
         
     }
+
     
     
 }
@@ -123,8 +138,7 @@ body{
  
 
 #salmapic{
-    width: 350px;
-    
+    flex-grow: 1;
     object-fit: cover;
     border-radius: 1rem;
 }
@@ -133,7 +147,6 @@ body{
 
 .propos{
     gap: 10%;
-    width: 60%;
     margin: 38px;
     flex-direction: column;
     text-align:justify;
@@ -149,6 +162,16 @@ body{
     align-items: baseline;
     gap: 15px;
 
+}
+
+.container {
+    max-width: 1200px;
+    margin-inline: auto;
+    /* border: red solid; */
+
+}
+.row{
+    display: flex;
 }
 
 p{
@@ -169,9 +192,10 @@ p{
 
 /* mes compétences */
 
-.competences{6
+.competences{
+
    
-    display: flex;
+    
     justify-content: center;
     padding: 64px;
     gap: 44px;
@@ -181,7 +205,6 @@ p{
     display: flex;
     text-align: justify;
     align-items: center;
-    width: 60%;
     margin-left: 30%;
     gap: 60px;
     padding: 2%;
@@ -299,6 +322,9 @@ gap:50px;
 
  #form{
     width: 400px;
+    gap: 21px;
+    display: flex;
+    flex-direction: column;
     
  }   
 
@@ -325,3 +351,16 @@ gap:50px;
 .b2{
 
 }
+
+/* 
+-----footer------ */
+
+
+footer{
+    background-color: #D198B3;
+    color: #F2EFEE;
+}
+/* <div class="blur-bg">
+<div class="b1"></div>
+<div class="b2"></div>
+</div> */
