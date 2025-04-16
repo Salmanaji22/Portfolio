@@ -111,6 +111,14 @@ body{
 
 /* presentation */
 
+.propos{
+    gap: 10%;
+    width: 476px;
+    margin: 38px;
+    flex-direction: column;
+    text-align:justify;
+    display: flex;
+}
 .a-propos{
     background-color: #F2EFEE;
     padding: 88px 64px;
@@ -125,7 +133,7 @@ body{
 
 /* mes compétences */
 
-.competences{
+.competences{6
    
     display: flex;
     justify-content: center;
