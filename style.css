@@ -14,6 +14,9 @@
     --ombre: 0px 4px 15px rgb(0 0 0 / 10%);
 }
 
+#salma{
+    padding:100px;
+}
 
 
 /* Titres principaux avec une police spécifique */
@@ -23,11 +26,15 @@ h1, h2, h3, h4 {
     margin: 2% 0;
 }
 h1{
-    font-size: 40px;
+    font-size: 90px;
+    margin: auto;
+    text-align: center;
+    color: #5c5c5c;
 }
 h2{
     font-size: 31px;
     text-align: center;
+    margin-bottom: revert-layer;
 }
 h3{
     font-size: 23px;
@@ -46,6 +53,12 @@ nav{
 display: flex; 
 justify-content:space-between;
 align-items: center; 
+background-color: #F2EFEE;
+/* position: fixed; */
+width:100%;
+padding:20px;
+z-index: 10;
+
         
 }
 
@@ -89,18 +102,25 @@ body{
     color:#4E0250 ;
     padding: 60px;
     margin-bottom: 10px;
+    h2{
+        text-align: left;
+        
+    }
     
     
 }
 .accueil{
     gap: 10%;
-    width: 463px;
+    width: 60%;;
     margin: 38px;
     flex-direction: column;
     text-align:justify;
     display: flex;
+/* ---mettre ma presentation au centre---- */
+    align-items: flex-start;
+    justify-content: center;
 }
-
+ 
 
 #salmapic{
     width: 350px;
@@ -113,7 +133,7 @@ body{
 
 .propos{
     gap: 10%;
-    width: 476px;
+    width: 60%;
     margin: 38px;
     flex-direction: column;
     text-align:justify;
@@ -128,8 +148,24 @@ body{
     justify-content: center;
     align-items: baseline;
     gap: 15px;
+
 }
 
+p{
+    margin-bottom: 20px;
+}
+
+#Apropos{
+    display: flex
+    ;
+        flex-direction: inherit;
+        justify-content: space-evenly;
+}
+.star{
+    height: height: 252px;
+    width: 150px;
+    
+}
 
 /* mes compétences */
 
@@ -165,6 +201,7 @@ body{
     border-radius: 25px;
     text-align: center;
     box-shadow:var(--ombre);
+    box-shadow: 0 4px 15px #9a0b8926;
     height: 300px;
     width: 460px;
     padding: 20px;
@@ -236,8 +273,9 @@ gap:50px;
     height: fit-content;
     text-wrap: nowrap;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 12px;
     border: none;
+    
 }
 
 /* formulaire */
@@ -259,12 +297,23 @@ gap:50px;
 
     
 
+ #form{
+    width: 400px;
     
+ }   
 
-        .formGroup {
-            width: 45%;
-        }
-    
+.formGroup {
+
+    margin-bottom: 10px;
+}
+
+.form1{
+    width: -webkit-fill-available;
+    border-radius: 10px;
+    border: #80008085 solid 1px;
+    box-shadow: 0 4px 15px #9a0b8926;
+    padding: 12px;
+}
 
 
 .blur-bg{
