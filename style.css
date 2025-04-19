@@ -24,12 +24,12 @@ h1, h2, h3, h4 {
     margin: 2% 0;
 }
 h1{
-    font-size: 90px;
+    font-size: 95px;
     text-align: center;
     color: #5c5c5c;
 }
 h2{
-    font-size: 31px;
+    font-size: 38px;
     text-align: center;
     margin-bottom: revert-layer;
 }
@@ -37,7 +37,7 @@ h3{
     font-size: 23px;
 }
 h4{
-    font-size: 18px;
+    font-size: 19px;
 }
 /* Paragraphes avec une autre police */
 p {
@@ -277,7 +277,6 @@ justify-content: space-between;
     margin: 50px auto;
     border-radius: 17PX;
     text-align: center;
-    /* box-shadow:var(--ombre); */
     box-shadow: 0 4px 15px #9a0b8926;
 
 }
@@ -337,6 +336,8 @@ justify-content: space-between;
 .formGroup {
 
     margin-bottom: 10px;
+        
+    
 }
 
 .form1{
@@ -345,6 +346,28 @@ justify-content: space-between;
     border: #80008085 solid 1px;
     box-shadow: 0 4px 15px #9a0b8926;
     padding: 12px;
+}
+
+.btn{
+        border-radius: 5px;
+        padding:8px;
+        margin: 10px 0;
+        background-color:#80008085  ;
+        color: white;
+        border-style: none;
+        display:inline-flex;
+       
+    
+}
+
+#btnform{
+    border-radius: 5px;
+    padding:8px;
+    margin: 10px 0;
+    background-color:#80008085  ;
+    color: white;
+    border-style: none;
+   
 }
 
 
@@ -365,8 +388,17 @@ justify-content: space-between;
 footer{
     background-color: #D198B3;
     color: #F2EFEE;
+    padding: 2%;
 }
 /* <div class="blur-bg">
 <div class="b1"></div>
 <div class="b2"></div>
 </div> */
+
+footer{
+    text-align: center;
+    background-color: var(--pink);
+}
+
+
+
