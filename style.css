@@ -34,7 +34,7 @@ h2{
     font-size: 38px;
     text-align: center;
     margin-bottom: revert-layer;
-    color: #4E0250;
+    color: var(--purple);
     font-family: monospace;
 }
 h3{
@@ -60,9 +60,7 @@ background-color: #F2EFEE;
 /* position: fixed; */
 width:100%;
 padding:20px;
-z-index: 10;
-
-        
+z-index: 10;     
 }
 
 
@@ -379,15 +377,12 @@ justify-content: space-between;
 
 
 footer{
-    background-color: #D198B3;
+    background-color:#80008085;
     color: #F2EFEE;
-    padding: 2%;
-}
-
-footer{
+    padding: 3%;
     text-align: center;
-    background-color: var(--pink);
-}
+
+
 
 
 
