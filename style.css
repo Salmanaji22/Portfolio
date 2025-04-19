@@ -356,6 +356,7 @@ justify-content: space-between;
         color: white;
         border-style: none;
         display:inline-flex;
+        font-size:14px;
        
     
 }
