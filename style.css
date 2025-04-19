@@ -2,6 +2,7 @@
     padding: 0; 
     margin: 0;
     box-sizing: border-box;
+    font-family:monospace;
 }
 
 :root {
@@ -14,34 +15,39 @@
     --ombre: 0px 4px 15px rgb(0 0 0 / 10%);
 }
 
-}
+
 
 
 /* Titres principaux avec une police spécifique */
 h1, h2, h3, h4 {
-    font-family: "Vollkorn SC", serif;
+    font-family: "monospace", serif;
     font-weight: 400;
     margin: 2% 0;
 }
 h1{
     font-size: 95px;
     text-align: center;
-    color: #5c5c5c;
+    color: var(--purple);
+    font-family: monospace;
 }
 h2{
     font-size: 38px;
     text-align: center;
     margin-bottom: revert-layer;
+    color: #4E0250;
+    font-family: monospace;
 }
 h3{
     font-size: 23px;
+    font-family: monospace;
 }
 h4{
     font-size: 19px;
+    font-family: monospace;
 }
 /* Paragraphes avec une autre police */
 p {
-    font-family: "Inter", sans-serif;
+    font-family: monospace;
 }
 
 /* barre de navigation */
@@ -154,6 +160,8 @@ body{
     flex-direction: column;
     text-align:justify;
     display: flex;
+    color:#4E0250 ;
+    
 }
 .a-propos{
     background-color: #F2EFEE;
@@ -170,7 +178,7 @@ body{
 .container {
     max-width: 1200px;
     margin-inline: auto;
-    /* border: red solid; */
+ 
 
 }
 .row{
@@ -182,8 +190,7 @@ p{
 }
 
 #Apropos{
-    display: flex
-    ;
+    display: flex;
         flex-direction: inherit;
         justify-content: space-evenly;
 }
@@ -196,9 +203,6 @@ p{
 /* mes compétences */
 
 .competences{
-
-   
-    
     justify-content: center;
     padding: 64px;
     gap: 44px;
@@ -213,9 +217,6 @@ p{
     padding: 2%;
     margin-left: auto;
     margin-right: auto;
-   
-    
-
 
 }
 
@@ -235,6 +236,7 @@ p{
     flex-wrap: wrap;
     h3{
         width: 100%;
+        font-family: ;
     }
     div{ 
         width: 50%;
@@ -371,15 +373,6 @@ justify-content: space-between;
 }
 
 
-.blur-bg{
-
-}
-.b1{
-
-}
-.b2{
-
-}
 
 /* 
 -----footer------ */
@@ -390,10 +383,6 @@ footer{
     color: #F2EFEE;
     padding: 2%;
 }
-/* <div class="blur-bg">
-<div class="b1"></div>
-<div class="b2"></div>
-</div> */
 
 footer{
     text-align: center;
